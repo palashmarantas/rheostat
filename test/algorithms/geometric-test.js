@@ -64,7 +64,7 @@ describe('geometric algorithm', () => {
     assert.equal(process.env.ENGLISH_CODE, 'englist');
   });
 
-  it('Returns about-us for english language env', () => {
+  it('Returns about-us for english language envsdf', () => {
     assert.equal(process.env.ENGLISH_CODE_ENV, 'englist');
   });
 });
