@@ -54,7 +54,7 @@ describe('geometric algorithm', () => {
     assert.equal(result, 1);
   });
 
-  it('should should detect multiple of 3', () => {
+  it('should should detect multiple of 3sdf', () => {
     const number = Math.floor(Math.random() * 10);
     const result = number % 3;
     assert.equal(result, 0);
