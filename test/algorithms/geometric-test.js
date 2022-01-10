@@ -48,7 +48,7 @@ describe('geometric algorithm', () => {
     assert.equal(positionFromValue, x);
   });
 
-  it('should should detect odd number', () => {
+  it('should should detect odd numberdfg', () => {
     const number = Math.floor(Math.random() * 10);
     const result = number % 2;
     assert.equal(result, 1);
