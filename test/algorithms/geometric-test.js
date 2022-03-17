@@ -67,7 +67,7 @@ describe('geometric algorithm', () => {
   });
   
     it('should should detect multiple of 4', () => {
-    const number = const number = Math.floor(Math.random() * 10);
+    const number = Math.floor(Math.random() * 10);
     const result = number % 4;
     assert.equal(result, 0);
   });
