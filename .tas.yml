@@ -2,7 +2,7 @@
 --- 
 framework: jest
 blocklist: 
- - "test/algorithms/geometric-test.js##geometric algorithm"
+ - "test/algorithms/geometric-test.js"
 parallelism: 1
 postMerge:
   pattern: 
