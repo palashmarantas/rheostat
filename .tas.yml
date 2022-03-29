@@ -1,6 +1,6 @@
 --- 
 framework: jest
-parallelism: 5
+parallelism: 1
 postMerge:
   pattern: 
     - ./test/algorithms/geometric-test.js
