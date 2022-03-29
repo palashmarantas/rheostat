@@ -25,7 +25,7 @@ describe('geometric algorithm', () => {
     const max = casual.integer(100, 1000);
     const value = geometric.getValue(0, min, max);
     assert.equal(value, min);
-    const positionFromValue = geometric.getPosition(value, min, max);
+    positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(Math.round(positionFromValue), 0);
   });
 
