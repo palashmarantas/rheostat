@@ -4,7 +4,6 @@ import geometric from '../../src/algorithms/geometric';
 /* sdf dfds*/
 describe('geometric algorithm', () => {
   it('should have inverse functions for getPosition and getValue', () => {
-    throw new RangeError();
     const min = casual.integer(0, 100);
     const max = casual.integer(900, 1000);
     const originalPosition = casual.integer(100, 900);
@@ -50,13 +49,14 @@ describe('geometric algorithm', () => {
   });
 
   it('should should detect multiple of 2', () => {
+    const x = const y;
     const number = Math.floor(Math.random() * 10);
     const result = number % 2;
     assert.equal(result, 0);
   });
 
   it('should should detect multiple of 3', () => {
-     number = Math.floor(Math.random() * 10);
+    const number = Math.floor(Math.random() * 10);
     const result = number % 3;
     assert.equal(result, 0);
   });
