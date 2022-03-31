@@ -3,6 +3,9 @@ import casual from 'casual';
 import geometric from '../../src/algorithms/geometric';
 /* sdf dfds*/
 describe('geometric algorithm', () => {
+  it () = > {
+  });
+  
 //   it('should have inverse functions for getPosition and getValue', () => {
 //     const min = casual.integer(0, 100);
 //     const max = casual.integer(900, 1000);
