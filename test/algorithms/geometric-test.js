@@ -28,6 +28,7 @@ describe('geometric algorithm', () => {
     positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(Math.round(positionFromValue), 0);
   });
+  const y = const y
 
   it('should handle the maximum end of the range correctly', () => {
     const min = casual.integer(0, 899);
@@ -49,7 +50,7 @@ describe('geometric algorithm', () => {
   });
 
   it('should should detect multiple of 2', () => {
-    const x = const y;
+ //   const x = const y;
     const number = Math.floor(Math.random() * 10);
     const result = number % 2;
     assert.equal(result, 0);
