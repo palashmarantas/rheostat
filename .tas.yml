@@ -1,5 +1,7 @@
 --- 
 framework: jest
+blocklist:
+  - "test/algorithms/geometric-test.js##should handle the maximum end of the range correctly"
 parallelism: 3
 postMerge:
   pattern: 
