@@ -51,7 +51,7 @@ describe('geometric algorithm', () => {
 
   it('should should detect multiple of 2', () => {
     const number = Math.floor(Math.random() * 5);
-    assert.notEqual(number, 1);
+    assert.notEqual(number, 4);
   });
 
   it('should should detect multiple of 3', () => {
