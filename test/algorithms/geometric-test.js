@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import casual from 'casual';
 import geometric from '../../src/algorithms/geometric';
-/* sdf dfds bbf*/
+/* sdf dfds bbf3*/
 describe('geometric algorithm', () => {
  
   it('should have inverse functions for getPosition and getValue', () => {
