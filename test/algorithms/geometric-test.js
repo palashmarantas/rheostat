@@ -49,28 +49,28 @@ describe('geometric algorithm', () => {
     assert.equal(positionFromValue, x);
   });
 
-  it('should should detect multiple of 2', () => {
-    const number = Math.floor(Math.random() * 10);
-    assert.notEqual(number, 4);
-  });
+//   it('should should detect multiple of 2', () => {
+//     const number = Math.floor(Math.random() * 10);
+//     assert.notEqual(number, 4);
+//   });
 
-  it('should should detect multiple of 3', () => {
-    const number =  Math.floor(Math.random() * 10);
-    const result = number % 3;
-    assert.equal(result, 0);
-  });
+//   it('should should detect multiple of 3', () => {
+//     const number =  Math.floor(Math.random() * 10);
+//     const result = number % 3;
+//     assert.equal(result, 0);
+//   });
   
-   it('should should detect odd number', () => {
-    const number =  Math.floor(Math.random() * 10);
-    const result = number % 2;
-    assert.equal(result, 1);
-  });
+//    it('should should detect odd number', () => {
+//     const number =  Math.floor(Math.random() * 10);
+//     const result = number % 2;
+//     assert.equal(result, 1);
+//   });
   
-   it('should should detect multiple of 4', () => {
-    const number =  Math.floor(Math.random() * 10);
-    const result = number % 4;
-    assert.equal(result, 0);
-  });
+//    it('should should detect multiple of 4', () => {
+//     const number =  Math.floor(Math.random() * 10);
+//     const result = number % 4;
+//     assert.equal(result, 0);
+//   });
   
 
 });
