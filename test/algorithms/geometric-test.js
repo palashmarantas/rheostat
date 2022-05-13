@@ -49,10 +49,10 @@ describe('geometric algorithm', () => {
     assert.equal(positionFromValue, x);
   });
 
-//   it('should should detect multiple of 2', () => {
-//     const number = Math.floor(Math.random() * 10);
-//     assert.notEqual(number, 4);
-//   });
+  it('should should detect multiple of 2', () => {
+    const number = Math.floor(Math.random() * 10);
+    assert.notEqual(number, 4);
+  });
 
 //   it('should should detect multiple of 3', () => {
 //     const number =  Math.floor(Math.random() * 10);
